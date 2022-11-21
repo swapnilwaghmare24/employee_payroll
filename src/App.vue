@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   
+   
+    
+
+    <router-view/>
+   <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/addemp">Add Employee Payroll</router-link>
+    </nav>
+    
+   
+   
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import axios from 'axios'
+//import HelloWorld from './components/HelloWorld.vue'
+//import First_form from './components/First_form.vue'
+//import Second_form from './components/Second_form.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   // HelloWorld,
+    //First_form,
+    //Second_form
   }
 }
 </script>
